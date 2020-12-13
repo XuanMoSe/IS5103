@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+
+</style>
+</head>
+<body>
+<section>
+    <h1>Sample</h1>
+    <p>IS5103Sample</p>
+    <div>Hello World</div>
+</section>
+
+<form id="placeOrder" name="placeOrder" method="POST" action=“process_order.php”>
+    <p>
+        <label for”username”>Username</label>
+        <input type="text" name="username" id="username">
+    </p>
+    <p>
+        <label for”email”>E-mail</label>
+        <input type="email" name="email" id="email">
+    </p>
+    <p>
+        <label for”refeNo”>Reference number</label>
+        <input type="number" name="refNo" id="refNo" min=0>
+    </p>
+    <p>
+        <label for”quantity”>quantity</label>
+        <input type="number" name="quan" id="quan" min=0>
+    </p>
+    <p>
+        <label for”type”>Type of software</label>
+        <select>
+            <option value="none">none</option>
+            <option value="ide">IDE</option>
+            <option value="matlab">MatLab</option>
+            <option value="search">Search</option>
+            <option value="word">Word</option>
+          </select>
+    </p>
+    <p>
+        <label for”date”>Date</label>
+        <input type="date" name="date" id="date">
+    </p>
+    <p>
+        <label for”url”>Home page adress</label>
+        <input type="password" name="url" id="url">
+    </p>
+    <p>
+        <input type="submit" name="button" id="button" value="submit" >
+    </p>
+</form>
+
+</body>
+</html>
